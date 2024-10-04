@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
+// Precondició: entrada d'un número positiu major que 0 i menor que 10000 (num > 0 && num < 10000).
+// Postcondició: mostrar el número d'entrada acompanyat d'un missatge de sortida que digui si el número és o no un número estrany.  
+
 int main() {
     int num = 0;
     cin >> num;
-
-    // Per a saber si num > 0 i num < 10000:
-    if (!(num > 0) && !(num < 10000)) return 1;
 
     // Per a saber el nombre de dígits que té:
     int digits = 1;
